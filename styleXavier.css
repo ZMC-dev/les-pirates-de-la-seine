@@ -4,11 +4,11 @@
 }
 
 h1 {
-    font-family: 'Pirates';
+    font-family: 'Pirates' !important;
 }
 
 h4 {
-    font-family: 'Akaya Kanadaka', cursive;
+    font-family: 'Akaya Kanadaka', cursive !important;
 }
 
 .bg-light {
