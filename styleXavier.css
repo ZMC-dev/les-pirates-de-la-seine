@@ -1,9 +1,18 @@
-.x-bord {
-    border: 1px solid red;
+@font-face {
+    font-family: 'Pirates';
+    src: url("/fonts/PIRATESDRAKE.TTF");
+}
+
+h1 {
+    font-family: 'Pirates';
+}
+
+h4 {
+    font-family: 'Akaya Kanadaka', cursive;
 }
 
 .bg-light {
-    background-color: rgb(194, 194, 194) !important;
+    background-color: rgb(226, 226, 226) !important;
 }
 
 .btn-primary:hover {
