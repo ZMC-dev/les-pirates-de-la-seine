@@ -3,6 +3,11 @@
     src: url("/fonts/PIRATESDRAKE.TTF");
 }
 
+@font-face {
+    font-family: 'Akaya Kanadaka';
+    src: url('/fonts/akaya/AkayaKanadaka-Regular.ttf');
+}
+
 h1 {
     font-family: 'Pirates' !important;
 }
