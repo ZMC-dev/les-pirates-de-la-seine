@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Pirates';
-    src: url("/fonts/PIRATESDRAKE.TTF");
+    font-family: 'Caribbean';
+    src: url("/fonts/caribbean/Caribbean.ttf");
 }
 
 @font-face {
@@ -9,7 +9,7 @@
 }
 
 h1 {
-    font-family: 'Pirates' !important;
+    font-family: 'Caribbean' !important;
 }
 
 h4 {
@@ -30,8 +30,9 @@ h4 {
     }
 }
 
-@media (max-width:770px) {
-    .fs-7 {
-        font-size: 16px;
-    }
+.fs-7 {
+    font-size: 16px;
+}
+
+
 }
