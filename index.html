@@ -1,54 +1,117 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Polices google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Favicon-->
+    <link rel="icon" type="image/ico" sizes="16x16" href="img/logo1.png">
+    <!-- css perso -->
+    <link rel="stylesheet" href="styleXavier.css">
+
 
     <title>Les Pirates de la Seine</title>
 </head>
 
 <body>
-  <header>
-    <!-- @Zoila ---  Navbar-->
-    <!-- Augmenter la taille du logo et ajouter du padding left -->
+    <header>
+        <!-- Navbar
+    Augmenter la taille du logo et ajouter du padding -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-      <img src="img/logo1.png" width="30" height="30" class="d-inline-block align-top" alt=""> Les Pirates de la Seine</a>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home</a>
-          <a class="nav-item nav-link" href="#">L'équipage</a>
-          <a class="nav-item nav-link" href="#">Nos Offres</a>
-      </div>
-    </nav>
-    
-    <!-- @Zoila ---- Background image -->
-     <!-- améliorer le visibilité de l'umage afin de voir le centre-->
-    <div class="bg-image b-1 text-center"
-    style="background-image: url(img/background-image-2.png);height: 600px;
-"
->   
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-white">
-          <h1 class="mb-3">DÉCOUVREZ LA SEINE AUTREMENT</h1>
-          <h4 class="mb-3">Expérimentez une aventure de pirate avec nous</h4>
-          <div class="d-grid gap-2 d-md-block">
-            <button class="btn btn-primary" type="button">Je veux en savoir plus !</button>
-          </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand " href="#">
+                <img src="img/logo1.png" width="30" height="30" class="d-inline-block align-top mx-3" alt=""> Les Pirates de la Seine</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link" href="#">L'équipage</a>
+                    <a class="nav-item nav-link" href="#">Nos Offres</a>
+                </div>
+        </nav>
+
+        <!-- Background image 
+    améliorer le visibilité de l'umage afin de voir le centre-->
+        <div class="bg-image b-1 text-center" style="background-image: url(img/background-image-2.png);height: 600px;">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h1 class="mb-3">DÉCOUVREZ LA SEINE AUTREMENT</h1>
+                    <h4 class="mb-3">Expérimentez une aventure de pirate avec nous</h4>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-primary" type="button">Je veux en savoir plus !</button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        </div>
+
+    </header>
+
+    <!--! CONTAINER DES PRICING -->
+    <div class="container mt-5 mb-5">
+        <div class='  container d-sm-flex-column  d-md-flex justify-content-md-around '>
+            <!-- PRINCING OFFRE CROISIERE-->
+            <div class="container col-md-5 col-sm-12 border border-primary p-0 m-0 mb-sm-4 mb-md-0 rounded-3 overflow-hidden shadow-lg ">
+                <!-- PRIX 1 -->
+                <h2 class="raw  text-center col-12 bg-light ">Petit mouss'</h2>
+                <div class="raw d-flex text-center align-items-center border-bottom border-secondary ps-3 pe-3 ">
+                    <p class="col-5 ms-2 ">Traverser Paris en bateau pirate</p>
+                    <p class="col-3 fw-bolder">50€</p>
+                    <button class="btn btn-primary col-4  mb-3 mt-3 bg-white text-primary">Je Prends !</button>
+                </div>
+                <!-- PRIX 2 -->
+
+                <h2 class="raw  text-center col-12 bg-light">Corsaire</h2>
+                <div class="raw d-flex text-center align-items-center border-bottom border-secondary ps-3 pe-3">
+                    <p class="col-5 ms-2 ">Plus mieux mais mais plus chere aussi</p>
+                    <p class="col-3 fw-bolder">100€/j</p>
+                    <button class="btn btn-primary col-4 col-sm-4 mb-3 mt-3 fs-7">Je Prends !</button>
+                </div>
+                <!-- PRIX 3 -->
+
+                <h2 class="raw  text-center col-12 bg-light">Roi des pirates</h2>
+                <div class="raw d-flex text-center align-items-center s-3 pe-3">
+                    <p class="col-5 ms-2 ">Tu va te ruiner, mais tuva kiffer</p>
+                    <p class="col-3 fw-bolder">500€/j</p>
+                    <button class="btn btn-primary col-4 mb-3 mt-3 ">Je Prends !</button>
+                </div>
+            </div>
+            <!-- PRINCING OFFRE LOCATION-->
+
+            <div class="container col-md-5 col-sm-12 border border-primary p-0 m-0 mb-sm-4 mb-md-0 rounded-3 overflow-hidden shadow-lg">
+                <!-- PRIX 1 -->
+                <h2 class="raw  text-center col-12 bg-light">Petit mouss'</h2>
+                <div class="raw d-flex text-center align-items-center border-bottom border-secondary ps-3 pe-3 ">
+                    <p class="col-5 ms-2 ">pas ouf mais pas chère</p>
+                    <p class="col-3 fw-bolder">50€/j</p>
+                    <button class="btn btn-primary col-4  mb-3 mt-3 bg-white text-primary ">Je Prends !</button>
+                </div>
+                <!-- PRIX 2 -->
+                <h2 class="raw  text-center col-12 bg-light">Corsaire</h2>
+                <div class="raw d-flex text-center align-items-center border-bottom border-secondary ps-3 pe-3 ">
+                    <p class="col-5 ms-2 ">pas ouf mais pas chère</p>
+                    <p class="col-3 fw-bolder">50€/j</p>
+                    <button class="btn btn-primary col-4 mb-3 mt-3 ">Je Prends !</button>
+                </div>
+                <!-- PRIX 3 -->
+                <h2 class="raw  text-center col-12 bg-light">Roi des pirates</h2>
+                <div class="raw d-flex text-center align-items-center ps-3 pe-3">
+                    <p class="col-5 ms-2 ">pas ouf mais pas chère</p>
+                    <p class="col-3 fw-bolder">50€/j</p>
+                    <button class="btn btn-primary col-4 mb-3 mt-3 ">Je Prends !</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-
-</header>
-
-
+    <!---->
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

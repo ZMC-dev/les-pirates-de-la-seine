@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Pirates';
+    src: url("/fonts/PIRATESDRAKE.TTF");
+}
+
+h1 {
+    font-family: 'Pirates' !important;
+}
+
+h4 {
+    font-family: 'Akaya Kanadaka', cursive !important;
+}
+
+.bg-light {
+    background-color: rgb(226, 226, 226) !important;
+}
+
+.btn-primary:hover {
+    border: 1px solid #242424;
+}
+
+@media (max-width:1000px) {
+    .fs-7 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:770px) {
+    .fs-7 {
+        font-size: 16px;
+    }
+}
